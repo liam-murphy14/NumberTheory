@@ -1,4 +1,4 @@
-
+(* Liam Murphy *)
 let gen_larg_odd_int power =
   let rec loop n power =
     let dig = Z.of_int (Random.int 10) in
